@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX2001/device.mk)
 
 # Inherit some common Octavi stuff.
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Octavi Properties
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -31,11 +31,9 @@ TARGET_SCREEN_DENSITY := 420
 TARGET_USES_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_GAPPS := true
-OCTAVI_BUILD_TYPE := Official
-OCTAVI_DEVICE_MAINTAINER := sharanpai
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := octavi_RMX2001
+PRODUCT_NAME := dot_RMX2001
 PRODUCT_DEVICE := RMX2001
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G90T Series
@@ -43,4 +41,4 @@ PRODUCT_MANUFACTURER := realme
 
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:11/RQ3A.210805.001.A1/7474174:user/release-keys"
