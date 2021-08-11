@@ -26,11 +26,11 @@ $(call inherit-product, vendor/dot/config/common.mk)
 
 # Octavi Properties
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
+#TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 420
 TARGET_USES_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-WITH_GAPPS := true
+#WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_RMX2001
