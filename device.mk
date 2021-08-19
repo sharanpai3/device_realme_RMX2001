@@ -158,15 +158,16 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
-    WifiOverlay    
+    WifiOverlay
 
 # Doze
 PRODUCT_PACKAGES += \
     CustomDoze
 
-# Google-Camera GO
+# Prebuilt Packages
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    GoogleCameraGo \
+    Gboard
 
 # Misc
 PRODUCT_COPY_FILES += \
