@@ -55,10 +55,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=411
 
-# ADB
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.adb.secure=0
-
 # LMKD
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.low_ram= false \
