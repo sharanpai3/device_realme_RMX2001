@@ -3,10 +3,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera \
     vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord
 
-# GBoard
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.ime.kb_pad_port_b=1
-
 # IMS
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
