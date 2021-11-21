@@ -43,4 +43,4 @@ PRODUCT_MANUFACTURER := realme
 
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys"
