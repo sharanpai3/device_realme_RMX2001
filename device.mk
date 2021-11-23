@@ -28,6 +28,9 @@ $(call inherit-product-if-exists, vendor/realme/RMX2001/RMX2001-vendor.mk)
 # Parts
 $(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
 
+# MTK Jars (for IMS)
+$(call inherit-product, vendor/mediatek-ims/mtk-ims-vendor.mk)
+
 # Realme Dirac
 $(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
 
