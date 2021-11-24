@@ -69,6 +69,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.kill_heaviest_task= true \
     ro.lmk.kill_timeout_ms= 0 \
     ro.lmk.debug= false
+# DRM
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    drm.service.enabled=true \
+    ro.vendor.mtk_widevine_drm_l1_support=1
+
+# Netflix
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.netflix.bsp_rev=MTK6785-18787-1
 
 # Tweak the memory management of the device, enable more background apps.. etc..
 PRODUCT_PROPERTY_OVERRIDES += \
